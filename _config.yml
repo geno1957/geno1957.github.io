@@ -1,0 +1,20 @@
+# Site settings
+author: organized-trainer-0561
+title: 
+header-img: img/home-bg.png
+email: jared.epps322@gmail.com
+copyright_name: organized-trainer-0561
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  geno1957
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
