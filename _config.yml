@@ -1,11 +1,11 @@
 # Site settings
-author: organized-trainer-0561
-title: 
+author: Jared epps 
+title: Why did you decide to study Software Engineering?
 header-img: img/home-bg.png
 email: jared.epps322@gmail.com
-copyright_name: organized-trainer-0561
+copyright_name: Jared epps 
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Software Engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  geno1957
