@@ -1,0 +1,26 @@
+---
+layout: post
+title:      " booleans "
+date:       2020-04-26 23:26:38 +0000
+permalink:  booleans
+---
+
+ 
+ 
+ One thing that was not covered in the learn co curiculum about booleans is that booleans do not have a class. 
+ while it has true and false types, they don't share a common Boolean class. while it has values to represent true and false there is no boolean data type. True is represented as true.class and false is false.class. To understand why ruby has no boolean class we need to understand ruby as a dynamically-typed language. 
+ 
+ 
+In  Ruby we don't have to declare the type of an argument or a variable before assigning a variable to it.  So for instance in this method, the only thing indicating that the single argument is expected to be a true or false value is the name. There is no need to declare a type.
+
+```
+def want_milk_with_that?(true_or_false)
+  puts "Customer wants milk: #{true_or_false}"
+end
+
+want_milk_with_that?(false)
+# >> Customer wants milk: false
+
+```
+
+since any type of value can be assigned to any variable, we don't need a Boolean type in order to declare that a variable may have either a true or false value.
