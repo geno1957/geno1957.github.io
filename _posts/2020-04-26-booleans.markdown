@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " booleans "
-date:       2020-04-26 23:26:38 +0000
+date:       2020-04-26 19:26:39 -0400
 permalink:  booleans
 ---
 
